@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mikrotik_manager": {
+      "command": "python",
+      "args": ["C:\\MCP\\mikrotik_mcp.py"],
+      "env": {
+        "ROUTEROS_HOST": "192.168.88.1",
+        "ROUTEROS_USER": "admin",
+        "ROUTEROS_PASSWORD": "votre_mot_de_passe",
+        "ROUTEROS_PORT": "8728"
+      }
+    }
+  }
+}
